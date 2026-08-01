@@ -52,7 +52,7 @@ int main() {
   cout << "Enter student score (0-100):";
   cin >> score;
   if (score < 0 || score > 100) {
-    cout << "Error: Score must be between 0 and 100"; 
+    cout << "Error: Score must be between 0 and 100";
   }
   else if (score >= 80) {
     cout << "Grade: A";
